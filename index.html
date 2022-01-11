@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+<title>Bootstrap Design</title>
+  </head>
+  <body>
+ 
+<!-- Navbar -->
+
+
+<nav class="navbar navbar-expand-md bg-light navbar-light py-3 fixed-top">
+  <div class="container">
+    <a href="#" class="navbar-brand"><img src="/images/logo-bookmark.svg"/></a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navmenu"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        
+        <li class="nav-item">
+          <a href="#features" class="nav-link text-uppercase">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="#extensions" class="nav-link text-uppercase">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link text-uppercase">Contact</a>
+        </li>
+        <li>
+          <a class="btn btn-primary orange px-4 mx-3" href="#" role="button">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+      
+<!-- <br>
+<br> -->
+<!-- Showcase Section -->
+
+<section class="bg-light text-dark mt-5 p-5 p-lg-0 pt-lg-5 text-center text-sm-start"> 
+<div class="container">
+  <div class="d-sm-flex align-items-center justify-content-between">
+    <div>
+      <h1>A Simple Bookmark Manager</h1>
+      <p>A clean and simple interface to organize your favourite website.Open a new browser tab and see your sites instantly. Try it for free.</p>
+   <button class="btn btn-primary btn-md softBlue m-3">Get it on Chrome</button>
+   <button class="btn btn-md bglight text-gray shadow rounded">Get it on Firefox</button>
+  </div>
+    <img class="img-fluid w-50 d-none d-sm-block" src="/images/illustration-hero.svg"/>
+  </div>
+
+</div>
+</section>
+
+<br>
+<br>
+
+
+<!-- Features -->
+
+
+<!-- Collapse Features Section -->
+<div class="container">
+  <h1 class="text-center">Features</h1>
+  <p class="text-gray text-center">Our aim is to make it quick and easy for you to access your favorite websites. Your bookmarks sync between yur devices so you can access them on the go.</p>
+  <p class="d-flex justify-content-between py-4 lead mx-auto">
+    <a class="text-dark tab-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="true" aria-controls="multiCollapseExample1">Simple Bookmarking</a>
+    <a class="text-dark tab-link" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Speedy Searching</a>
+    <a class="text-dark tab-link" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Easy Sharing</a>
+    
+  </p>
+  <div class="row">
+    <div class="col-8">
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <section class="bg-light text-dark mt-5 p-lg-0 pt-lg-5 text-center text-sm-start"> 
+          <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+              <img class="img-fluid w-50 d-none d-sm-block" src="/images/illustration-features-tab-1.svg"/>
+              <div class="p-5">
+                <h1>Bookmark in one Click</h1>
+                <p>Organize your bookmarks however you liks. A simple drag and drop interface makes it very easy.</p>
+             <button class="btn btn-primary btn-md softBlue">More Info</button>
+            </div>
+            </div>
+          </div>
+          </section>
+      </div>
+    </div>
+    <div class="col-8">
+      <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <section class="bg-light text-dark mt-5 p-5 p-lg-0 pt-lg-5 text-center text-sm-start"> 
+          <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+              <img class="img-fluid w-50 d-none d-sm-block" src="/images/illustration-features-tab-2.svg"/>
+              <div class="p-5">
+                <h1>Intelligent Search</h1>
+                <p>Our powerful search feature will help you find the saved websites in no time. No need to trawl through all your websites.</p>
+             <button class="btn btn-primary btn-md softBlue">More Info</button>
+            </div>
+            </div>
+          </div>
+          </section>
+      </div>
+    </div>
+    <div class="col-8">
+      <div class="collapse multi-collapse" id="multiCollapseExample3">
+        <section class="bg-light text-dark mt-5 p-5 p-lg-0 pt-lg-5 text-center text-sm-start"> 
+          <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+              <img class="img-fluid w-50 d-none d-sm-block" src="/images/illustration-features-tab-3.svg"/>
+              <div class="p-5">
+                <h1>Share Your Bookmarks</h1>
+                <p>Our powerful search feature will help you find the saved websites in no time. No need to trawl through all your websites.</p>
+             <button class="btn btn-primary btn-md softBlue">More Info</button>
+            </div>
+            </div>
+          </div>
+          </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br>
+  <br>
+  <!-- Download Extensions -->
+  <section id="extensions" class="p-5 bg-light">
+    <div class="container">
+      <h2 class="text-center darkBlue">Download the Extension</h2>
+      <p class="lead text-center darkBlue mb-5">
+        We've got more browsers in the pipeline. Please do let us know if you've got a favorite. 
+      </p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-light w-75 mt-4 mb-3 shadow p-3 mb-5 rounded">
+            <div class="card-body text-center">
+              <img
+                src="images/logo-opera.svg"
+                class="rounded-circle mb-3"
+                alt=""
+              />
+              <h3 class="card-title mb-3">Opera</h3>
+              <p class="card-text text-gray">
+                Minimum Version 64
+              </p>
+              <a class="btn btn-primary softBlue" href="#" role="button">Add & Install Extension</a> 
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-light w-75 mt-4 mb-3  shadow p-3 mb-5 rounded margin-top">
+            <div class="card-body text-center">
+              <img
+                src="images/logo-chrome.svg"
+                class="rounded-circle mb-3"
+                alt=""
+              />
+              <h3 class="card-title mb-3">Chrome</h3>
+              <p class="card-text text-gray">
+                Minimum Version 64
+              </p>
+              <a class="btn btn-primary softBlue" href="#" role="button">Add & Install Extension</a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-light w-75 mt-4 mb-3 margin-top2 shadow p-3 mb-5 rounded">
+            <div class="card-body text-center">
+              <img
+                src="images/logo-firefox.svg"
+                class="rounded-circle mb-3"
+                alt=""
+              />
+              <h3 class="card-title mb-3">Firefox</h3>
+              <p class="card-text text-gray">
+                Minimum Version 64
+              </p>
+              <a class="btn btn-primary softBlue" href="#" role="button">Add & Install Extension</a> 
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<br>
+<br>
+
+<!-- Question Accordion -->
+<section id="questions" class="p-5">
+  <div class="container p-5">
+    <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+    <p class="text-gray text-center">Here are some question you would like to ask.</p>
+    <div class="accordion accordion-flush" id="questions">
+      <!-- Item 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#question-one"
+          >
+            Where exactly are you located?
+          </button>
+        </h2>
+        <div
+          id="question-one"
+          class="accordion-collapse collapse"
+          data-bs-parent="#questions"
+        >
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            beatae fuga animi distinctio perspiciatis adipisci velit maiores
+            totam tempora accusamus modi explicabo accusantium consequatur,
+            praesentium rem quisquam molestias at quos vero. Officiis ad
+            velit doloremque at. Dignissimos praesentium necessitatibus
+            natus corrupti cum consequatur aliquam! Minima molestias iure
+            quam distinctio velit.
+          </div>
+        </div>
+      </div>
+      <!-- Item 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#question-two"
+          >
+            How much does it cost to attend?
+          </button>
+        </h2>
+        <div
+          id="question-two"
+          class="accordion-collapse collapse"
+          data-bs-parent="#questions"
+        >
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            beatae fuga animi distinctio perspiciatis adipisci velit maiores
+            totam tempora accusamus modi explicabo accusantium consequatur,
+            praesentium rem quisquam molestias at quos vero. Officiis ad
+            velit doloremque at. Dignissimos praesentium necessitatibus
+            natus corrupti cum consequatur aliquam! Minima molestias iure
+            quam distinctio velit.
+          </div>
+        </div>
+      </div>
+      <!-- Item 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#question-three"
+          >
+            What do I need to Know?
+          </button>
+        </h2>
+        <div
+          id="question-three"
+          class="accordion-collapse collapse"
+          data-bs-parent="#questions"
+        >
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            beatae fuga animi distinctio perspiciatis adipisci velit maiores
+            totam tempora accusamus modi explicabo accusantium consequatur,
+            praesentium rem quisquam molestias at quos vero. Officiis ad
+            velit doloremque at. Dignissimos praesentium necessitatibus
+            natus corrupti cum consequatur aliquam! Minima molestias iure
+            quam distinctio velit.
+          </div>
+        </div>
+      </div>
+      <!-- Item 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#question-four"
+          >
+            How Do I sign up?
+          </button>
+        </h2>
+        <div
+          id="question-four"
+          class="accordion-collapse collapse"
+          data-bs-parent="#questions"
+        >
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            beatae fuga animi distinctio perspiciatis adipisci velit maiores
+            totam tempora accusamus modi explicabo accusantium consequatur,
+            praesentium rem quisquam molestias at quos vero. Officiis ad
+            velit doloremque at. Dignissimos praesentium necessitatibus
+            natus corrupti cum consequatur aliquam! Minima molestias iure
+            quam distinctio velit.
+          </div>
+        </div>
+      </div>
+      <!-- Item 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#question-five"
+          >
+            Is there a mobile app?
+          </button>
+        </h2>
+        <div
+          id="question-five"
+          class="accordion-collapse collapse"
+          data-bs-parent="#questions"
+        >
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            beatae fuga animi distinctio perspiciatis adipisci velit maiores
+            totam tempora accusamus modi explicabo accusantium consequatur,
+            praesentium rem quisquam molestias at quos vero. Officiis ad
+            velit doloremque at. Dignissimos praesentium necessitatibus
+            natus corrupti cum consequatur aliquam! Minima molestias iure
+            quam distinctio velit.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-lg-12 text-center">
+        <a class="btn btn-primary softBlue" href="#" role="button">More Info</a>  
+      </div>
+
+    </div>
+    
+  </div>
+</section>
+
+  <!-- Footer -->
+<footer id="contact" class="softBlue text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+      
+          <div class="col-auto mt-5">
+            <p class="lead text-uppercase text-center text-white">35,000+ already joined</p>
+            <h1 class="text-center text-white mb-5">Stay up-to-date with what we're doing</h1>
+          </div>
+
+          <div class="col-md-5 col-12">
+           
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example29" class="form-control" />  
+            </div>
+          </div>
+   
+          <div class="col-auto mb-5">
+       
+            <a class="btn btn-outline-light mb-4 orange">
+              Contact Us
+            </a>
+          </div>
+
+        </div>
+  
+      </form>
+    </section>
+
+  </div>
+
+  <div class="bg-dark text-white">
+    <div class="container">
+    <div class="row py-3">
+    
+      <div class="col-8 text-white d-flex">
+        <a href="#" class="navbar-brand"><img src="/images/logo-bookmark.svg"/></a>
+        <div class="d-flex justify-content-end align-items-center">
+          <a href="#">FEATURES</a>
+          <a href="#">PRICING</a>
+          <a href="#">CONTACT</a>
+        </div>
+      </div>
+      <div class="col-4 d-flex justify-content-around align-items-center" style="width:60px">
+<img src="/images/icon-facebook.svg" width="100%" style="padding-right: 12px;"/>
+<img src="/images/icon-twitter.svg" width="100%" style="padding-left: 12px;"/>
+    </div>
+  </div>
+  </div>
+</footer>
+
+
+
+
+   
+</body>
+</html>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
